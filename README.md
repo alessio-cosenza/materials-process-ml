@@ -1,2 +1,2 @@
 # materials-process-ml
-Research Projects
+Applied machine learning and data analysis projects for engineering, manufacturing, and materials science.
