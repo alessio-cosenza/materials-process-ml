@@ -1,6 +1,6 @@
 ### 01 — Steel Industry Energy Consumption
 
-End-to-end analysis and machine-learning project on industrial steel energy-consumption data using Python, pandas, SQL, DuckDB, and scikit-learn.
+End-to-end industrial data-analysis and machine-learning project using Python, pandas, SQL, DuckDB, scikit-learn, and XGBoost to analyze and predict steel-industry energy consumption.
 
 Topics practiced:
 
@@ -32,10 +32,20 @@ Topics practiced:
 - supervised regression
 - feature and target selection
 - train/test splitting
-- reproducible experiments with random_state
+- reproducible experiments with `random_state`
 - baseline model comparison
-- multiple linear regression with scikit-learn
-- model fitting and prediction
+- Linear Regression and Ridge Regression
+- L2 regularization and feature scaling
+- scikit-learn Pipelines
+- decision trees and regression trees
+- Random Forest regression
+- Gradient Boosting regression
+- XGBoost regression
+- 5-fold cross-validation
+- training vs. validation performance comparison
+- CV mean and standard-deviation analysis
+- overfitting diagnosis
+- hyperparameter tuning with `GridSearchCV` and `RandomizedSearchCV`
+- model benchmarking and selection
 - MAE, RMSE, and R² evaluation
-- actual vs. predicted analysis
-- overfitting and data-leakage awareness
+- held-out test-set evaluation
