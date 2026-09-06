@@ -1,0 +1,22 @@
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# DuckDB / local databases
+*.duckdb
+*.duckdb.wal
+*.wal
+
+# Generated model-analysis outputs
+projects/02-steel-energy-full-project/09_final_test_predictions.csv
+projects/02-steel-energy-full-project/10_error_analysis.csv
+projects/02-steel-energy-full-project/10_permutation_importance.csv
+projects/02-steel-energy-full-project/10_xgboost_feature_importance.csv
+
+# Raw datasets kept locally
+projects/01-steel-energy/Steel_industry_data.csv
+projects/02-steel-energy-full-project/Steel_industry_data.csv
